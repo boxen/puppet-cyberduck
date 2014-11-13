@@ -3,9 +3,11 @@
 # Examples
 #
 #   include cyberduck
-class cyberduck {
+class cyberduck (
+    $version = '4.5.2'
+) {
   package { 'Cyberduck':
     provider   => 'compressed_app',
-    source     => 'http://cyberduck.ch/Cyberduck-4.3.1.zip'
+    source     => "https://update.cyberduck.io/Cyberduck-${version}.zip"
   }
 }
