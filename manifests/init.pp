@@ -6,6 +6,6 @@
 class cyberduck {
   package { 'Cyberduck':
     provider   => 'compressed_app',
-    source     => 'http://cyberduck.ch/Cyberduck-4.3.1.zip'
+    source     => 'https://update.cyberduck.io/Cyberduck-4.6.5.zip'
   }
 }
