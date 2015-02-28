@@ -3,9 +3,16 @@
 # Examples
 #
 #   include cyberduck
-class cyberduck {
+#
+#   OR
+#   
+#   class { 'cyperduck':
+#     version => '4.6.5'
+#   }
+#
+class cyberduck($version='4.6.5') {
   package { 'Cyberduck':
     provider   => 'compressed_app',
-    source     => 'https://update.cyberduck.io/Cyberduck-4.6.5.zip'
+    source     => 'https://update.cyberduck.io/Cyberduck-${version}.zip'
   }
 }
