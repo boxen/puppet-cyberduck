@@ -10,6 +10,12 @@ storage browser for Mac & Windows.
 include cyberduck
 ```
 
+```puppet
+class { 'cyberduck':
+  version => '4.6.5'
+}
+```
+
 ## Required Puppet Modules
 
 * `boxen`
