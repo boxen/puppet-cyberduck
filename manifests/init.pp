@@ -13,6 +13,6 @@
 class cyberduck($version='4.6.5') {
   package { 'Cyberduck':
     provider   => 'compressed_app',
-    source     => 'https://update.cyberduck.io/Cyberduck-${version}.zip'
+    source     => "https://update.cyberduck.io/Cyberduck-${version}.zip"
   }
 }
