@@ -5,7 +5,7 @@
 #   include cyberduck
 #
 #   OR
-#   
+#
 #   class { 'cyperduck':
 #     version => '4.6.5'
 #   }
